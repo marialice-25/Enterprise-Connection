@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF633C5D-09C7-E07A-F3D6-CDB11CCDFA8E" name="T_JK_EQUIPAMENTO">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-14 18:50:15 UTC</createdTime>
+<generatorID>A74BD21B-D705-6028-98B5-04A1AF594A4F</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_equipamento" id="90098B7A-939E-B935-B463-39C0E38C08B8">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-14 18:50:15 UTC</createdTime>
+<generatorID>47E27C12-F113-1928-726A-1A728DF76ECD</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_equipamento" id="7A1687D1-C7C3-BCF7-E569-AB82F17DC928">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-14 18:50:15 UTC</createdTime>
+<generatorID>19E3F704-34E4-937C-9A1F-3B5DC0058669</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_serie" id="383690B2-F192-A104-A544-0B2CD0023578">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-14 18:50:15 UTC</createdTime>
+<generatorID>3E9D30AC-9C19-4DB4-E70D-9A24448669D2</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="82F0B3E4-46F1-0A75-C5D3-77E602CB66FF">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-14 18:50:15 UTC</createdTime>
+<generatorID>DD7FB32E-94A4-9F9E-A7E0-979F50BBF802</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_fornecedor" id="C15E65E1-B9CC-A288-47AA-9EC474B16908">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-14 18:50:15 UTC</createdTime>
+<generatorID>D23BEF60-6A45-C4C0-5D2F-5366F7E74EF4</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_instalacao" id="2683E26A-1465-17E0-2E17-2D52051211ED">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-14 18:50:15 UTC</createdTime>
+<generatorID>07665357-E011-73BC-D6BE-046FE5D0DD13</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fim_instalacao" id="CD56D213-5599-7EB7-4D9D-3F97678EBD99">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-14 18:50:15 UTC</createdTime>
+<generatorID>033513A4-FE12-8915-8B6D-FC8B33FA55A0</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87B51D98-467A-8EA4-F805-C595C726766F" name="T_JK_EQUIPAMENTO_PK">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-14 18:50:15 UTC</createdTime>
+<generatorID>7C552224-89CC-4574-EC79-F94E104859E8</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90098B7A-939E-B935-B463-39C0E38C08B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

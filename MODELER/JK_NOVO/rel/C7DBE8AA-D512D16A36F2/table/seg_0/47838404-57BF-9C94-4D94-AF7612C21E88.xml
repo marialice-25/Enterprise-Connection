@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47838404-57BF-9C94-4D94-AF7612C21E88" name="T_JK_CIDADE">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-14 18:50:15 UTC</createdTime>
+<generatorID>61E4B2A3-15F9-71EE-A2D8-96A8D515B4A9</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cidade" id="C95B1799-1192-BB16-A49C-F155752B6EA7">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-14 18:50:15 UTC</createdTime>
+<generatorID>AEA86DC1-2352-D76F-892E-991650DF1D78</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_estado" id="38FD1886-3E5C-F22A-9553-B9419892C540">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-14 18:50:15 UTC</createdTime>
+<generatorID>39AFC216-2F15-475A-7E5A-417C76A38119</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8692DD3C-53FD-AE6F-71C7-239148C0472B" referredColumn="5A39B3B6-7C37-A957-56D4-FC6980DC966F"/>
+</associations>
+</Column>
+<Column name="nm_cidade" id="FB841948-2CAA-BF28-5B45-CDCE36F35193">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-14 18:50:15 UTC</createdTime>
+<generatorID>A27AB368-70E4-4D5C-B341-631219B4F2F8</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50DD4CE3-FB28-32C8-8689-24A41531DA95" name="T_JK_CIDADE_PK">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-14 18:50:15 UTC</createdTime>
+<generatorID>18A86722-202E-4D65-ED1C-B29E76B455E2</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C95B1799-1192-BB16-A49C-F155752B6EA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5D3AB2B-47C6-60F8-5693-8C87D48D5D71" name="T_JK_CIDADE_T_JK_ESTADO_FK">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-14 18:50:15 UTC</createdTime>
+<generatorID>9F033934-83B3-D599-8627-1BB487F08F84</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38FD1886-3E5C-F22A-9553-B9419892C540"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

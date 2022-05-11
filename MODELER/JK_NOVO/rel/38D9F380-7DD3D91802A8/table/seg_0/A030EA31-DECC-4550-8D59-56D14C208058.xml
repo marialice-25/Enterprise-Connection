@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A030EA31-DECC-4550-8D59-56D14C208058" name="T_JK_AGENDA">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>C56B2160-88DC-9AEC-BD92-425DDECF98E0</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_agenda" id="B842F333-DD55-F509-A930-94CE62C0EFE0">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>833EDD88-20A5-C21A-217A-FA27F601D7C4</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_empresa" id="84F1AE4E-CF1F-E734-C272-07056BFE099C">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>CF6B7C17-258A-4A48-3B65-EB2A26A9719F</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB872071-3462-E035-2503-596CA88CF526" referredColumn="6AB30261-6C5B-C03E-6216-8255389B6743"/>
+</associations>
+</Column>
+<Column name="cd_endereco" id="112C997D-836F-F33C-BA95-FF7DB32248AB">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>C39735D2-04D3-6E16-E735-EF0DE40F2D48</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB31D50B-BEBE-48C0-555A-C9F2F5D57916" referredColumn="535DF741-4BD9-D68D-A15C-04753A9B94C2"/>
+</associations>
+</Column>
+<Column name="email" id="33B91D56-AC0D-5C05-F99A-1B730BC5C636">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>D48CAFFB-5BCE-4AC4-455E-9DB730C0F830</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="05EFB1EC-5679-67C3-1312-9E88B4643008">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>B46270D6-A547-BE42-B8A9-8396354A7870</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_agenda" id="E194B5B4-BC58-ED4A-D0FF-9301B833B305">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>F92F24C1-EBF9-37C3-7B89-52942EC29A63</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hr_agenda" id="EECD4E1C-8731-83F3-598E-B8CCB32CA6AB">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>1BADDF4B-C7E5-34EE-01E4-97141E37C15C</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_visita" id="1D624C83-8634-9B1B-7583-59BF966A25CC">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>1D515622-714A-63A5-6686-70DE3120D810</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F5586AA-B0BE-7D65-0730-7D78899751C2" name="T_JK_AGENDA_PK">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>AB06D7A1-12CD-1B41-E2D9-48E36D0CE548</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B842F333-DD55-F509-A930-94CE62C0EFE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="753FF0A5-9DF0-0842-3CD9-0FA15632DFCA" name="T_JK_AGENDA_T_JK_LOGRADOURO_FK">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:01 UTC</createdTime>
+<generatorID>02BFEF87-3687-EF59-97F2-0FCA0705766E</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="112C997D-836F-F33C-BA95-FF7DB32248AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CD54A8D-BA2A-4BE5-3EF3-4A1964602124" name="T_JK_AGENDA_T_JK_EMPRESA_FK">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:01 UTC</createdTime>
+<generatorID>61FCD97B-611E-9DFE-B883-A5E3C1940109</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84F1AE4E-CF1F-E734-C272-07056BFE099C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

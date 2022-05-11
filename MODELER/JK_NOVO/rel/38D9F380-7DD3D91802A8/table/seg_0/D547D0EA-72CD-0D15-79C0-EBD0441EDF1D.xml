@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D547D0EA-72CD-0D15-79C0-EBD0441EDF1D" name="T_JK_FONE">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>51392DBD-1722-6D39-416F-46A52C699B17</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_fone" id="F9F73D82-D7E5-07C5-2896-91351703024E">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>A5CA3D50-A4AC-A807-18EE-62BDF540F7B9</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_fone" id="576D55B5-F032-72BC-3490-2238BC29B680">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>F945774C-BA45-5AED-4613-6EC8D91B1AD7</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="06228BF2-CA64-3135-4F0C-6008D299C383">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>021D27B3-0D8B-3787-99C7-9F60B7C98C95</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_ddd" id="7CF65BF7-4E42-7832-6D10-ABF223788D6A">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>EEFE7136-26B7-89FC-3964-78EDC58C9712</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="obs_fone" id="D1854576-54D2-1CC5-D23F-672F632A5DC1">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>8EBE3FED-6A76-8F73-73AD-D2CBEA51BBE5</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59889C71-D9A9-8C1A-215E-BD216422D1CE" name="T_JK_FONE_PK">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>38415F49-7BC4-F182-F3F0-55D9DBCDDE51</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9F73D82-D7E5-07C5-2896-91351703024E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

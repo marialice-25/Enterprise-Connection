@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pertencerv9" directorySegmentName="seg_0" id="9455A632-FD1B-683C-8252-DDE11D91C475">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-03-18 23:54:10 UTC</createdTime>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<engineerTo>
+<item key="54F70F83-AB56-D93E-3ABB-9C56E93B2DDD" value="true"/>
+</engineerTo>
+<sourcePk>04CA137D-CF91-BF26-ED0C-AAD91B612696</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DBC6F93E-17EE-B19E-3085-78400176E413</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D32119E8-9DEF-1B2C-4AC8-1986C5493BB6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

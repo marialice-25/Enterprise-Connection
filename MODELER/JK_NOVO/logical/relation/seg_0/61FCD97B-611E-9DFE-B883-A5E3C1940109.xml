@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="programar" directorySegmentName="seg_0" id="61FCD97B-611E-9DFE-B883-A5E3C1940109">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-03-21 00:23:01 UTC</createdTime>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<engineerTo>
+<item key="54F70F83-AB56-D93E-3ABB-9C56E93B2DDD" value="true"/>
+</engineerTo>
+<sourcePk>F6528BBE-67BA-227D-18F5-DB15CA4EB749</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D32119E8-9DEF-1B2C-4AC8-1986C5493BB6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C56B2160-88DC-9AEC-BD92-425DDECF98E0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

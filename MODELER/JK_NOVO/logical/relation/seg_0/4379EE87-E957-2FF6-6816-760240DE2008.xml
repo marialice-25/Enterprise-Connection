@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="gerar" directorySegmentName="seg_0" id="4379EE87-E957-2FF6-6816-760240DE2008">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-03-21 00:47:00 UTC</createdTime>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<engineerTo>
+<item key="54F70F83-AB56-D93E-3ABB-9C56E93B2DDD" value="true"/>
+</engineerTo>
+<sourcePk>AB06D7A1-12CD-1B41-E2D9-48E36D0CE548</sourcePk>
+<dominantRole>C56B2160-88DC-9AEC-BD92-425DDECF98E0</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C56B2160-88DC-9AEC-BD92-425DDECF98E0</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>85343085-328F-7F41-EEB3-83A399D1443B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

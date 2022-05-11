@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A12E3E2-06B4-092A-D829-CFC4AAB7AC2F" name="T_JK_PROP_EMPRESA">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-03-17 23:33:48 UTC</createdTime>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<engineerTo>
+<item key="54F70F83-AB56-D93E-3ABB-9C56E93B2DDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_prop" id="1477C9E3-9C26-5F61-9BE7-DD2BBAF2A8A7">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-03-18 00:14:13 UTC</createdTime>
+<generatorID>5729496B-D223-C8D6-B61E-B16E5C2E8072</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<engineerTo>
+<item key="54F70F83-AB56-D93E-3ABB-9C56E93B2DDD" value="true"/>
+</engineerTo>
+<referedAttribute>337B687D-4AC6-4122-37A4-0C5ABF78FE1C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_empresa" id="0161FB73-9FF4-0153-FA4A-FC2855DF4090">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-03-18 00:14:28 UTC</createdTime>
+<generatorID>45F0736F-6B26-5E7F-7068-8764C90E0728</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<engineerTo>
+<item key="54F70F83-AB56-D93E-3ABB-9C56E93B2DDD" value="true"/>
+</engineerTo>
+<referedAttribute>84D44281-ECDD-A770-F662-5C5929A17A70</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="5942CD80-597A-A3CB-FAE0-1A7416BC7763">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-03-17 23:34:11 UTC</createdTime>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<engineerTo>
+<item key="54F70F83-AB56-D93E-3ABB-9C56E93B2DDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_fim" id="0C2C6CFA-6923-4E9C-0101-F7A822D74DE8">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-03-17 23:34:36 UTC</createdTime>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<engineerTo>
+<item key="54F70F83-AB56-D93E-3ABB-9C56E93B2DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="36E562DD-E527-9C88-AED9-6CA6FBD4BA9A" name="T_JK_PROP_EMPRESA PK">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-03-18 00:14:13 UTC</createdTime>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="54F70F83-AB56-D93E-3ABB-9C56E93B2DDD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1477C9E3-9C26-5F61-9BE7-DD2BBAF2A8A7</attributeRef>
+<attributeRef>0161FB73-9FF4-0153-FA4A-FC2855DF4090</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

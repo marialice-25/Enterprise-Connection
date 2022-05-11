@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2218371-B39B-692D-DD08-2E724AF02ACD" name="T_JK_FONE_EMP">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-04 20:55:36 UTC</createdTime>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<engineerTo>
+<item key="54F70F83-AB56-D93E-3ABB-9C56E93B2DDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_empresa" id="78679EB5-893A-49C4-1C23-192EFED3E50B">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-04 21:08:39 UTC</createdTime>
+<generatorID>1D245B95-5C0A-0FD6-DE26-4F0C1ECBD801</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<engineerTo>
+<item key="54F70F83-AB56-D93E-3ABB-9C56E93B2DDD" value="true"/>
+</engineerTo>
+<referedAttribute>84D44281-ECDD-A770-F662-5C5929A17A70</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_fone" id="CBEE1D63-0407-CE20-92A6-BAB4E5BA03D3">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-04 21:08:51 UTC</createdTime>
+<generatorID>6B92FCD6-8EDC-BC7C-C6EB-8D6390765F49</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<engineerTo>
+<item key="54F70F83-AB56-D93E-3ABB-9C56E93B2DDD" value="true"/>
+</engineerTo>
+<referedAttribute>A5CA3D50-A4AC-A807-18EE-62BDF540F7B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="8C4A5ACF-2467-B72E-F5F1-A5A788C20D66">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-04 20:55:46 UTC</createdTime>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<engineerTo>
+<item key="54F70F83-AB56-D93E-3ABB-9C56E93B2DDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_fim" id="F3777895-85F2-28B9-5824-1269BD756D45">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-04 20:56:28 UTC</createdTime>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<engineerTo>
+<item key="54F70F83-AB56-D93E-3ABB-9C56E93B2DDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="46AFAD48-C696-E12F-A63C-4B4DF44B94AA">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-04 20:57:06 UTC</createdTime>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<engineerTo>
+<item key="54F70F83-AB56-D93E-3ABB-9C56E93B2DDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="89ECAA8B-7C6F-516F-97AB-9594D2E1A8A9" name="T_JK_FONE_EMP PK">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-04 21:08:39 UTC</createdTime>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<engineerTo>
+<item key="54F70F83-AB56-D93E-3ABB-9C56E93B2DDD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78679EB5-893A-49C4-1C23-192EFED3E50B</attributeRef>
+<attributeRef>CBEE1D63-0407-CE20-92A6-BAB4E5BA03D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

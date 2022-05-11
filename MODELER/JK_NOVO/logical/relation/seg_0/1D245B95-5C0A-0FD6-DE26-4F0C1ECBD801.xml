@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="poaauir" directorySegmentName="seg_0" id="1D245B95-5C0A-0FD6-DE26-4F0C1ECBD801">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-04 21:08:39 UTC</createdTime>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<engineerTo>
+<item key="54F70F83-AB56-D93E-3ABB-9C56E93B2DDD" value="true"/>
+</engineerTo>
+<sourcePk>F6528BBE-67BA-227D-18F5-DB15CA4EB749</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D32119E8-9DEF-1B2C-4AC8-1986C5493BB6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D2218371-B39B-692D-DD08-2E724AF02ACD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A2E544C5-6E7E-5E49-6C32-E76DAD806B63" containerWithKeyObject="9BB5A79B-8475-D023-E1C6-1E646329BF54" localFKIndex="7AE17232-F579-755B-5A1C-D49EC296760A" name="T_JK_FONE_PROP_T_JK_PROP_FK">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:01 UTC</createdTime>
+<generatorID>6AFDD5DC-8FC9-716F-8B58-3801E405EDFD</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<referredTableLongName>T_JK_PROP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5D24DC31-ED3D-F981-8166-BF730F148CB7</referredTableID>
+<keyObject>E9D69F31-A130-C68D-FC8B-30668C36E39A</keyObject>
+<referredKeyID>E9D69F31-A130-C68D-FC8B-30668C36E39A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_prop</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

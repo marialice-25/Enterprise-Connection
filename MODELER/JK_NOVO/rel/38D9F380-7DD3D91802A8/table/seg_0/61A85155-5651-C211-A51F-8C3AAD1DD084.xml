@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61A85155-5651-C211-A51F-8C3AAD1DD084" name="T_MAQ_EQUIP">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>22203A59-4C04-357A-3B4D-4E7154B981C0</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_maquinas" id="1AA62E56-CB5E-03F6-890D-98CA6D9BC740">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>FB5898C6-8792-FAC1-E95A-EC25E3BF1CB0</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FCB3A21-42FC-020B-B116-A02E4A1F19DE" referredColumn="91517C37-2157-7749-371A-34AC20FEB463"/>
+</associations>
+</Column>
+<Column name="cd_equipamento" id="7E7D9257-BE2E-8332-CC90-364663AF5770">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>6A8DA080-811A-1699-B00E-9C84C8FE287D</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="837E8EB9-7F78-0696-20EC-ED5DA27EA9F2" referredColumn="80F010F6-E3CE-1DB0-90C5-99B58E9F7ACA"/>
+</associations>
+</Column>
+<Column name="dt_inicio" id="519AF6BF-CC8F-77A7-AE71-2BA29C41D7D5">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>D60751BE-525F-139A-30B3-4318B272A366</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fim" id="56F45335-9FDF-40F2-4CBE-9E25A166DA61">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>BFCDA3D4-9449-B6ED-E812-53C1A2E40073</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="A5CB9880-FE28-07F0-DF08-37F503069923">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>6B95DCE9-7CE5-3B83-45CC-1B6964342E3F</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79ACB8CB-E1D1-0DCC-D70C-6EC18B4A0889" name="T_MAQ_EQUIP_PK">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:00 UTC</createdTime>
+<generatorID>E4017CDE-DBB4-490A-7A8D-4730287E3064</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AA62E56-CB5E-03F6-890D-98CA6D9BC740"/>
+<colUsage columnID="7E7D9257-BE2E-8332-CC90-364663AF5770"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E583EFB0-6AE4-C5F3-1633-9B281A536E21" name="T_MAQ_EQUIP_T_JK_EQUIPAMENTO_FK">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:01 UTC</createdTime>
+<generatorID>50502DBC-C788-B9CC-1928-C95BC1EDEB89</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E7D9257-BE2E-8332-CC90-364663AF5770"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F9AA48B-9CDA-93E2-5065-43C6287A8D83" name="T_MAQ_EQUIP_T_JK_MAQUINAS_FK">
+<createdBy>Maria Alice</createdBy>
+<createdTime>2022-04-05 01:16:01 UTC</createdTime>
+<generatorID>02D2FC76-19B0-3CA4-70A5-D161D1BFFD05</generatorID>
+<ownerDesignName>JK_NOVO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AA62E56-CB5E-03F6-890D-98CA6D9BC740"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
